@@ -39,10 +39,6 @@ class LinearRegresorMult(Regressor):
         return Y_pred
     
 
-
-
-# (xtx)-1 xt y
-
 if __name__ == '__main__':
     print('Script:')
 
