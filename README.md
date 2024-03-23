@@ -13,4 +13,5 @@
  - [Outliers](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/outliers.py)
  - [Seleccion de atributos](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/selection_features.py)
  - [Seleccion de atributos con sklearn](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/selection_features_RFE.py)
+ - [Variables dummy](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/dummy_vars.py)
 
