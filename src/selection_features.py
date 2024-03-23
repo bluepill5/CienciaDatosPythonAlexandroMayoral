@@ -9,6 +9,7 @@ import os
 from sklearn.linear_model import LinearRegression
 import statsmodels.api as sm
 from sklearn.model_selection import train_test_split
+from sklearn.feature_selection import RFE
 
 def vif(X):
     vif_data = pd.DataFrame()

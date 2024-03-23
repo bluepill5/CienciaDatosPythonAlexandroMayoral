@@ -12,4 +12,5 @@
  - [Aplicación Regresión Múltiple](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/regression_mult.py)
  - [Outliers](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/outliers.py)
  - [Seleccion de atributos](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/selection_features.py)
+ - [Seleccion de atributos con sklearn](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/selection_features_RFE.py)
 
