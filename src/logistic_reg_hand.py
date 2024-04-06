@@ -7,7 +7,27 @@ import aztlan as az
 
 np.random.seed(1995)
 
-class LogisticRegression:
+class Classifier:
+    def accuracy(self, y_pred, y_real):
+        return (y_pred == y_real).mean()
+    
+    def precision(self, y_pred, y_real, true = 1):
+        mask = y_pred == true
+        return (y_pred[mask] == y_real[mask]).mean()
+    
+    def recall(self, y_pred, y_real, true = 1):
+        mask = y_real == true
+        return (y_pred[mask] == y_real[mask]).mean()
+    
+    def f1_score(self, y_pred, y_real, true = 1):
+        n = self.recall(y_pred, y_real, true = true) * self.precision(y_pred, y_real, true = true)
+        d = self.recall(y_pred, y_real, true = true) + self.precision(y_pred, y_real, true = true)
+
+        return 2 * (n / d)
+
+
+
+class LogisticRegressionP(Classifier):
     def __sigmoid(self, x):
         return 1 / (1 + np.exp(-x))
         
@@ -48,7 +68,7 @@ class LogisticRegression:
         # return np.round(probabilities)
 
 if __name__ == '__main__':
-    print('Logistic Regression')
+    print('Logistic Regression:')
     np.random.seed(1995)
 
     x = [4 + np.random.normal() for i in range(20)] + [2 + np.random.normal() for i in range(20)]
@@ -59,22 +79,48 @@ if __name__ == '__main__':
     X = data.drop('Type', axis = 1).values
     y = data['Type'].values
 
-    model = LogisticRegression()
+    model = LogisticRegressionP()
 
     model.fit(X, y, orbit=True)
 
     # Predice las etiquetas para los datos de prueba
-    predictions = model.predict(X)
+    y_pred = model.predict(X)
 
-    # Imprime las predicciones
-    print("Predicciones:", predictions)
+    print(f'Precision: {model.accuracy(y_pred, y)}')
+    print(f'Recall: {model.recall(y_pred, y)}')
+    print(f'F1 sCORE: {model.f1_score(y_pred, y)}')
 
-    fig, ax = plt.subplots(figsize = (13, 6))
+    # Con Sklearn
+    print('Con Sklearn obtenemos:')
+    from sklearn.metrics import confusion_matrix
+    from sklearn.metrics import ConfusionMatrixDisplay
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.metrics import classification_report
 
-    x = np.linspace(0, 7)
+    clf = LogisticRegression()
+    clf.fit(X, y)
 
-    # sns.scatterplot(data = data, x = 'x', y = 'y', hue = 'Type', ax = ax)
-    # ax.plot(x, (-model.w[0] / model.w[1]))
+    y_pred = clf.predict(X)
+
+    print(classification_report(y, y_pred))
+
+    
+    C = ConfusionMatrixDisplay(confusion_matrix(y, y_pred))
+
+    C.plot()
+    plt.show()
+
+    from sklearn.model_selection import cross_val_score
+    print(cross_val_score(clf, X, y, cv = 5, scoring='accuracy').mean())
+    print(cross_val_score(clf, X, y, cv = 5, scoring='precision').mean())
+    print(cross_val_score(clf, X, y, cv = 5, scoring='recall').mean())
+    print(cross_val_score(clf, X, y, cv = 5, scoring='f1').mean())
+
+
+
+
+
+
 
     
 

@@ -15,4 +15,5 @@
  - [Seleccion de atributos con sklearn](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/selection_features_RFE.py)
  - [Variables dummy](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/dummy_vars.py)
 - [Regresion Logistica (implementacion)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/logistic_reg_hand.py)
+- [Regresion Logistica (datos no balanceados y malla de hiperparametros)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/logistic_reg.py)
 

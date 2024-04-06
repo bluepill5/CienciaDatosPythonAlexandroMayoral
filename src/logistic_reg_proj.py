@@ -1,8 +1,12 @@
 import pandas as pd
 import numpy as np
-from matplotlib import pyplot as plt
+import aztlan as az
+import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.datasets import make_blobs, make_classification
+import statsmodels.api as sm
+from sklearn.feature_selection import RFE
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -100,12 +104,4 @@ if __name__ == '__main__':
     
     
     plt.show()
-
-
-
-
-
-
-
-
 
