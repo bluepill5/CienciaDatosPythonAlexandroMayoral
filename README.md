@@ -16,4 +16,6 @@
  - [Variables dummy](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/dummy_vars.py)
 - [Regresion Logistica (implementacion)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/logistic_reg_hand.py)
 - [Regresion Logistica (datos no balanceados y malla de hiperparametros)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/logistic_reg.py)
+- [KNN (Version 1)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/KNN_ex.py)
+- [KNN (Version 2)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/KNN_ex2.py)
 
