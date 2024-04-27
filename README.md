@@ -2,8 +2,8 @@
 
 ## Alexandro Mayoral
 
- - PCA
- - [Derivada](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/pca.py)
+ - [PCA](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/pca.py)
+ - [Derivada](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/descenso_gradiente.py)
  - [Derivadas Parciales](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/descenso_gradiente.py)
  - [Jacobiana](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/descenso_gradiente.py)
  - [Descenso de Gradiente](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/descenso_gradiente.py)
