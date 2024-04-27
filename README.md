@@ -3,7 +3,7 @@
 ## Alexandro Mayoral
 
  - PCA
- - [Derivada](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/descenso_gradiente.py)
+ - [Derivada](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/pca.py)
  - [Derivadas Parciales](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/descenso_gradiente.py)
  - [Jacobiana](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/descenso_gradiente.py)
  - [Descenso de Gradiente](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/descenso_gradiente.py)
@@ -18,4 +18,5 @@
 - [Regresion Logistica (datos no balanceados y malla de hiperparametros)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/logistic_reg.py)
 - [KNN (Version 1)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/KNN_ex.py)
 - [KNN (Version 2)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/KNN_ex2.py)
+- [Arboles de Desiciones](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/decision_tree.py)
 
