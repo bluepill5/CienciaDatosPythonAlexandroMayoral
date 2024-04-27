@@ -18,5 +18,5 @@
 - [Regresion Logistica (datos no balanceados y malla de hiperparametros)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/logistic_reg.py)
 - [KNN (Version 1)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/KNN_ex.py)
 - [KNN (Version 2)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/KNN_ex2.py)
-- [Arboles de Desiciones](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/decision_tree.py)
+- [Arboles de Decisiones](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/decision_tree.py)
 

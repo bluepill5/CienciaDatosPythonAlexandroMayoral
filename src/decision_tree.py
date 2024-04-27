@@ -264,7 +264,15 @@ data_num = pd.DataFrame({'x1' :  x, 'x2' : y, 'y' : target})
 
 if __name__ == '__main__':
     print('Arboles de desiciones: ')
-    clf = TreeClassifier()
+    clf = TreeClassifier(max_depth=2)
     clf.fit(data_num[['x1', 'x2']], data_num['y'])
+    print(clf.tree)
+
+    fig, ax = plt.subplots(figsize = (13, 8))
+    sns.scatterplot(data = data_num, x = 'x1', y = 'x2', hue = 'y', palette=['g', 'r'], ax = ax)
+    ax.axvline(clf.tree['value'], color = '#000')
+    ax.axhline(clf.tree['right']['value'], color = '#000')
+    plt.show()
+
 
 
