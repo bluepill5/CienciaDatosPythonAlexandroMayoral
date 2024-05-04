@@ -19,4 +19,6 @@
 - [KNN (Version 1)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/KNN_ex.py)
 - [KNN (Version 2)](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/KNN_ex2.py)
 - [Arboles de Decisiones](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/decision_tree.py)
+- [Cluster Jerárquico](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/clustering_hierarchical.py)
+- [K-means](https://github.com/bluepill5/CienciaDatosPythonAlexandroMayoral/tree/main/src/kmeans.py)
 
